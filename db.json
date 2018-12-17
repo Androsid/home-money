@@ -1,0 +1,113 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "wfm@mail.ru",
+      "password": "12345678",
+      "name": "Администратор"
+    },
+    {
+      "email": "q@q",
+      "password": "123456",
+      "name": "q",
+      "id": 2
+    }
+  ],
+  "bill": {
+    "value": 98677,
+    "currency": "RUB"
+  },
+  "categories": [
+    {
+      "name": "Дом",
+      "capacity": 15000,
+      "id": 1
+    },
+    {
+      "name": "Еда",
+      "capacity": 10000,
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "Машина",
+      "capacity": 7000
+    },
+    {
+      "name": "new1",
+      "capacity": 12,
+      "id": 4
+    },
+    {
+      "name": "fffa",
+      "capacity": 12,
+      "id": 5
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "type": "income",
+      "amount": 1250,
+      "category": 2,
+      "date": "12.06.2017 19:49:02",
+      "description": "Подарили еду в гостях"
+    },
+    {
+      "id": 2,
+      "type": "outcome",
+      "amount": 1300,
+      "category": 1,
+      "date": "13.08.2017 19:49:02",
+      "description": "Купил посудомоечную машину"
+    },
+    {
+      "type": "income",
+      "amount": 1480,
+      "category": 2,
+      "date": "17.08.2017 14:00:48",
+      "id": 3,
+      "description": "Поход в окей с баллами. Бесплатная еда"
+    },
+    {
+      "type": "outcome",
+      "amount": 2470,
+      "category": 2,
+      "date": "17.08.2017 14:00:58",
+      "id": 4,
+      "description": "Закупка на неделю"
+    },
+    {
+      "type": "outcome",
+      "amount": 4000,
+      "category": 3,
+      "date": "10.08.2017 14:01:58",
+      "id": 5,
+      "description": "Заправка + проход ТО"
+    },
+    {
+      "type": "income",
+      "amount": 134,
+      "category": 5,
+      "date": "27.09.2018 14:50:06",
+      "description": "dohod",
+      "id": 6
+    },
+    {
+      "type": "outcome",
+      "amount": 450,
+      "category": 1,
+      "date": "27.09.2018 15:01:57",
+      "description": "just need",
+      "id": 7
+    },
+    {
+      "type": "outcome",
+      "amount": 1500,
+      "category": 3,
+      "date": "27.09.2018 16:47:19",
+      "description": "xz",
+      "id": 8
+    }
+  ]
+}
